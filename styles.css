@@ -1,0 +1,208 @@
+/*side opsætning (All)*/
+
+
+body{
+    background-color: #000E48;
+}
+
+/*navigation* (All)*/
+.nav{
+    background-color: #1e4685;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px;
+    box-shadow: 0 4px 8px 0 #82cb15;
+    border-radius: 5%;
+}
+.nav:hover{
+    box-shadow: 0 8px 16px 0 #82cb15;
+}
+.nav__item a:hover{
+    color: black;
+}
+.nav__menu{
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+   padding: 20px;
+   margin-top: 0%;
+}
+.nav__menu a:hover{
+    background-color: #82CB15;
+    padding: 5px;
+    border-radius: 5%;
+}
+.nav__item{
+    text-align: center;
+    list-style-type: none;
+}
+.nav__item a {
+    
+    color: white;
+    
+}
+
+
+/*profil* (INDEX)*/
+
+.profil{
+    display: flex; 
+    background-color: #1e4685;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 80px;
+    color: white;
+    box-shadow: 0 4px 8px 0 #82cb15;
+    border-radius: 5%;
+}
+.profil:hover{
+    box-shadow: 0 8px 16px 0 #82cb15;
+}
+
+.Profil__billed{
+    
+    width: 200px;
+    padding-left:10px;
+    border-radius: 50%;
+    
+}
+.profil__navn{
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+.profil__uddannelse{
+    margin-top: 150px;
+    color: #82CB15;
+    
+}
+
+/* Information omkring mig (INDEX)*/
+.person{
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #1e4685;
+    box-shadow: 0 4px 8px 0 #82cb15;
+    border-radius: 5%;
+}
+.person:hover{
+    box-shadow: 0 8px 16px 0 #82cb15;
+}
+
+.person__info{
+    color: #ffffff;
+}
+.person__information{
+color: #ffffff;
+margin-bottom: 150px;
+padding-bottom: 20px;
+}
+
+/*erfaringer*/
+.erfaringer{
+    background-color: #1e4685;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 #82cb15;
+    border-radius: 5%;
+}
+.erfaringer:hover{
+    box-shadow: 0 8px 16px 0 #82cb15;
+}
+
+.erfaringer__title{
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.erfaringer__card{
+box-shadow: 0 4px 8px 0 #82cb15;
+transition: 0.3s;
+max-width: 400px;
+height: 350px;
+padding: 0 6px;
+width: 50%;
+display: inline-block;
+margin-left: 14%;
+background-color: #000e48;
+border-radius: 5%;
+
+}
+.erfaringer__card:hover{
+    box-shadow: 0 8px 16px 0 #82cb15;
+}
+.erfaringer_beskrivelse{
+    padding: 10px 16px;
+    background-color: #1e4685; 
+    color: white;
+    text-align: center;
+}
+.erfaringer__billed{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.erfaringer__pandavinker{
+    width: 400px;
+    height: 400px;
+    background: url('Image/pandavinker.webp') 0 0 no-repeat;
+    animation: play 3s steps(10) infinite;
+}
+@keyframes play {
+    0%{background-position:0px;}
+   100% { background-position: -4000px; }
+}
+
+/*kontakt form*/
+label{
+    color: #82CB15;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=send] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 35px;
+  }
+  
+  input[type=send]:hover {
+    background-color: white;
+    width: 35px;
+  }
+
+.container {
+    border-radius: 5px;
+    background-color: #1e4685;
+    padding: 20px;
+    color: #82CB15;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 4px 8px 0 #82cb15;
+    
+  }
+  .container:hover{
+    box-shadow: 0 8px 16px 0 #82cb15;
+  }
+  @media (max-width: 800px){
+    
+  }
