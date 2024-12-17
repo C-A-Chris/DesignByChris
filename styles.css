@@ -127,7 +127,7 @@ height: 350px;
 padding: 0 6px;
 width: 50%;
 display: inline-block;
-margin-left: 14%;
+margin-left: 12%;
 background-color: #000e48;
 border-radius: 5%;
 
@@ -147,16 +147,6 @@ border-radius: 5%;
     border-radius: 5%;
 }
 
-.erfaringer__pandavinker{
-    width: 400px;
-    height: 400px;
-    background: url('Image/pandavinker.webp') 0 0 no-repeat;
-    animation: play 3s steps(10) infinite;
-}
-@keyframes play {
-    0%{background-position:0px;}
-   100% { background-position: -4000px; }
-}
 
 /*kontakt form*/
 label{
@@ -203,6 +193,23 @@ input[type=text], select, textarea {
   .container:hover{
     box-shadow: 0 8px 16px 0 #82cb15;
   }
-  @media (max-width: 800px){
-    
-  }
+
+footer {
+    background-color: #1e4685;
+    color: #82CB15;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 #82cb15;
+}
+
+@media (max-width: 600px) {
+    .erfaringer__billed{
+        width: 200px;
+        height: 100px;
+    }
+    .erfaringer__card{
+        width: 200px;
+        height: 175px;
+        margin-left: 75px;
+    }
+}
